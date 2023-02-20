@@ -198,7 +198,9 @@ body{
     width: 15%;
 }
 
-
+#wrapper[data-roundness='4'] >.shapes:nth-child(6){
+    border-top-left-radius: 12rem;
+}
 
 #wrapper >.shapes:nth-child(7){
     background-color: #AE2012;
